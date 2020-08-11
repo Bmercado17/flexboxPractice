@@ -24,7 +24,9 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
         <script src="/scripts/myscripts.js"></script>
-        <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- the link below is for NPM package installed font awesome. the one above is the equal cdn -->
+         <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css"> 
         <link rel="stylesheet" href="/styles/stylesheet.css">
         
 
@@ -183,9 +185,76 @@
 
                 <!--this is where a possible hr line breaker could go insteod of the meta-->
                 <aside class="right-sideBar">
-                    <div class="search-box"  >
-                        <label for="search"><i class="fas fa-search-dollar"></i></label>
+                    <div class="search-box">
+                        <label for="search"><i class="fas fa-search"></i></label>
                         <input type="text" id="search" placeholder="keywords">
+                    </div>
+                    <!-- Calendar inside the aside  -->
+                    <div class="calendar-widget">
+                        <div class="calendar-top">
+                                <div class="calendar-prev"><i class="fas fa-chevron-left"></i></div>
+                                <div class="calendar-month">September 2020</div>
+                                <div class="calendar-next"><i class="fas fa-chevron-right"></i></div>
+                            </div>
+                            <div class="calendar-body">
+                                <table>
+                                   <tr>
+                                       <th>S</th>
+                                       <th>M</th>
+                                       <th>T</th>
+                                       <th>W</th>
+                                       <th>T</th>
+                                       <th>F</th>
+                                       <th>S</th>
+                                   </tr>
+                                   <tr>
+                                       <td>1</td>
+                                       <td>2</td>
+                                       <td class="current-month">3</td>
+                                       <td class="current-month current-day">4</td>
+                                       <td class="current-month">5</td>
+                                       <td class="current-month">6</td>
+                                       <td class="current-month">7</td>
+                                   </tr>
+                                   <tr>
+                                       <td>1</td>
+                                       <td>2</td>
+                                       <td>3</td>
+                                       <td>4</td>
+                                       <td>5</td>
+                                       <td>6</td>
+                                       <td>7</td>
+                                   </tr>
+                                   <tr>
+                                       <td class="current-month">1</td>
+                                       <td class="current-month current-day">2</td>
+                                       <td class="current-month current-day">3</td>
+                                       <td class="current-month">4</td>
+                                       <td class="current-month">5</td>
+                                       <td class="current-month">6</td>
+                                       <td class="current-month">7</td>
+                                   </tr>
+                                   <tr>
+                                       <td>1</td>
+                                       <td>2</td>
+                                       <td>3</td>
+                                       <td>4</td>
+                                       <td>5</td>
+                                       <td>6</td>
+                                       <td>7</td>
+                                   </tr>
+                                   <tr>
+                                       <td class="current-month">1</td>
+                                       <td class="current-month">2</td>
+                                       <td class="current-month">3</td>
+                                       <td class="current-month">4</td>
+                                       <td>5</td>
+                                       <td>6</td>
+                                       <td>7</td>
+                                   </tr>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </aside>
             </div>
