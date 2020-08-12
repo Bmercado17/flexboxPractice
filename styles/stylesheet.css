@@ -99,6 +99,7 @@ nav ul {
   font-weight: 300;
   font-size: 13px;
   color: black;
+  padding-top: 10px;
 }
 
 .socials {
@@ -127,10 +128,11 @@ nav ul {
   color: black;
   padding: 0 18px;
   margin-left: -15px;
+  padding-top: 10px;
 }
 
 .page-footer {
-  margin: 100px;
+  margin: 100px 0 0;
   width: 100%;
   margin-left: 0px;
 }
@@ -333,4 +335,40 @@ article h3 {
 button:focus {
   background-color: #f7c61d;
   outline: none;
+}
+
+.popular-news {
+  margin-top: 20px;
+}
+
+#imagen1 {
+  box-shadow: 5px 5px 5px rgba(69, 69, 69, 0.7);
+  animation-name: imagen;
+  animation-duration: 4s;
+}
+
+.popular-news article {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.popular-news h3 {
+  font-size: 17px;
+  line-height: 1.2;
+  margin-top: 5px;
+}
+
+.popular-news h1 {
+  /* display: flex; */
+  font-size: 28px;
+  white-space: nowrap;
+}
+
+.popular-news h1::after {
+  content: '';
+  font-size: O;
+  display: block;
+  width: 275px;
+  height: 1px;
+  border-top: 1px solid darkgray;
 }
